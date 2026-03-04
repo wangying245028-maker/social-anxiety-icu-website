@@ -1,115 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Anxiety ICU</title>
-  <meta name="description" content="Social Anxiety ICU is a low-pressure social circle for socially anxious people: one daily self-log and one-tap check-ins with close besties.">
-  <style>
-    :root {
-      --bg: #f8fafc;
-      --card: #ffffff;
-      --text: #1f2937;
-      --muted: #6b7280;
-      --accent: #0ea5e9;
-      --border: #e5e7eb;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-    }
-    .wrap {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 56px 20px 64px;
-    }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 28px;
-    }
-    h1 {
-      margin: 0 0 10px 0;
-      font-size: 36px;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-    }
-    .slogan {
-      margin: 0 0 20px 0;
-      color: var(--muted);
-      font-size: 15px;
-    }
-    h2 {
-      margin: 26px 0 10px 0;
-      font-size: 20px;
-    }
-    p {
-      margin: 0 0 12px 0;
-      line-height: 1.65;
-      color: #374151;
-    }
-    ul {
-      margin: 0;
-      padding-left: 18px;
-      color: #374151;
-    }
-    li { margin: 7px 0; }
-    .tag {
-      display: inline-block;
-      font-size: 12px;
-      color: var(--accent);
-      border: 1px solid #bae6fd;
-      background: #f0f9ff;
-      padding: 5px 10px;
-      border-radius: 999px;
-      margin-bottom: 16px;
-    }
-    .footer {
-      margin-top: 20px;
-      font-size: 13px;
-      color: var(--muted);
-      display: flex;
-      gap: 14px;
-    }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社恐ICU — Low-pressure social. One quiet update a day.</title>
+    <meta name="description" content="Social Anxiety ICU: a low-pressure circle for socially anxious people. One quiet daily update, only for your closest besties.">
+    <meta name="keywords" content="Social Anxiety ICU, 社恐ICU, social anxiety, minimalist social, quiet update, silent poke">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/icon/app_icon.png">
 </head>
 <body>
-  <main class="wrap">
-    <section class="card">
-      <div class="tag">Product Positioning</div>
-      <h1>Social Anxiety ICU</h1>
-      <p class="slogan">A low-pressure social circle for socially anxious people.</p>
 
-      <h2>What it is</h2>
-      <p>
-        Social Anxiety ICU is a minimalist private circle where socially anxious users can
-        quietly log one real daily status and view the real status of their closest besties.
-      </p>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">社恐ICU</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How it Works</a>
+                <a href="privacy.html" class="nav-link">Privacy</a>
+                <a href="terms.html" class="nav-link">Terms</a>
+            </div>
+        </div>
+    </nav>
 
-      <h2>Core experience</h2>
-      <ul>
-        <li>One daily self-log (photo + mood) with no social pressure.</li>
-        <li>A private bestie circle for viewing real daily status.</li>
-        <li>Only one interaction: a single tap poke for silent check-ins.</li>
-      </ul>
-
-      <h2>Design principle</h2>
-      <p>
-        No likes. No comments. No noisy social mechanics.
-        Just quiet presence and lightweight connection.
-      </p>
-
-      <div class="footer">
-        <span>© 2026 Social Anxiety ICU</span>
-        <a href="privacy.html">Privacy Policy</a>
-      </div>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <p class="hero-eyebrow">Social Anxiety ICU · 社恐ICU</p>
+            <h1 class="hero-title">
+                Low-pressure social.<br>
+                <span class="hero-title-accent">One quiet update a day.</span>
+            </h1>
+            <p class="hero-description">
+                A safe house for socially anxious people. One photo, one thought — every 24 hours.
+                No likes. No comments. No judgment. Just quiet mutual presence.
+            </p>
+            <div class="hero-tag-row">
+                <span class="hero-tag">Invite Only</span>
+                <span class="hero-tag">24h Ephemeral</span>
+                <span class="hero-tag">No Social Pressure</span>
+                <span class="hero-tag">Silent Poke Only</span>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">↓</div>
     </section>
-  </main>
+
+    <!-- Manifesto Strip -->
+    <section class="manifesto">
+        <div class="manifesto-inner">
+            <p class="manifesto-text">
+                "Every day, one quiet update to tell the world — I'm still here. I haven't caught social loneliness."
+            </p>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Core Features</p>
+                <h2 class="section-title">Built for the socially anxious.</h2>
+                <p class="section-subtitle">Everything you need. Nothing you don't.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <p class="feature-index">01</p>
+                    <h3 class="feature-title">ICU Visitor List</h3>
+                    <p class="feature-description">
+                        Not "followers." Not "contacts." An ICU visitor list — only people you'd actually let see your real state. Invite-only. Curated. Quiet.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <p class="feature-index">02</p>
+                    <h3 class="feature-title">Personal Rescue Diary</h3>
+                    <p class="feature-description">
+                        One photo, one thought. Posted once per day, gone in 24 hours. No archive, no history, no performance. Just today's proof of life.
+                    </p>
+                    <span class="feature-badge">24h only</span>
+                </div>
+
+                <div class="feature-card">
+                    <p class="feature-index">03</p>
+                    <h3 class="feature-title">Silent Poke</h3>
+                    <p class="feature-description">
+                        The only interaction available. No chat. No reply needed.
+                        One tap says: "I see you're still here." That's enough.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <p class="feature-index">04</p>
+                    <h3 class="feature-title">Designed for Introverts</h3>
+                    <p class="feature-description">
+                        No read receipts. No timestamps. No pressure to respond. Vitals reported, connection maintained — all without saying a word.
+                    </p>
+                </div>
+
+                <div class="feature-card feature-card--wide">
+                    <p class="feature-index">05</p>
+                    <h3 class="feature-title">Vitals: Resuscitated Today</h3>
+                    <p class="feature-description">
+                        When you post, your status lights up: <strong>Vitals: Resuscitated Today.</strong>
+                        When you don't: <strong>Vitals: Quiet Today.</strong>
+                        No commentary. Just signal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">How it Works</p>
+                <h2 class="section-title">Three steps. No drama.</h2>
+            </div>
+
+            <div class="steps-list">
+                <div class="step-item">
+                    <span class="step-num">01</span>
+                    <div class="step-body">
+                        <h3 class="step-title">Save a Spot</h3>
+                        <p class="step-desc">Send an invite link to someone who matters. Tell them they made your ICU Visitor List. That's the whole onboarding.</p>
+                    </div>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step-item">
+                    <span class="step-num">02</span>
+                    <div class="step-body">
+                        <h3 class="step-title">Post Once a Day</h3>
+                        <p class="step-desc">One photo. One thought. Visible for 24 hours, then gone. No one can scroll your history. No one can judge your past.</p>
+                    </div>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step-item">
+                    <span class="step-num">03</span>
+                    <div class="step-body">
+                        <h3 class="step-title">Stay Calmly Present</h3>
+                        <p class="step-desc">Before sleep, check in on your circle. Poke someone if you're thinking of them. No reply required. Presence is enough.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-block">
+                <p class="cta-label">Your safe house is waiting.</p>
+                <p class="cta-sub">Ask your bestie for an invite link to join.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-text">社恐ICU</span>
+                </div>
+                <p class="footer-tagline">Low-pressure social. One quiet update a day.</p>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Social Anxiety ICU. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
